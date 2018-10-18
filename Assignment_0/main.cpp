@@ -53,7 +53,7 @@ TEST_CASE( "Spring mass damper output is checked", "[spring_damper]" ) {
   REQUIRE( round(s2.x) == expected2[0] );
   REQUIRE( round(s2.y) == expected2[1] );
 
-  cout <<   mass.getConfiguration(24564,s1) << endl << mass.getCurrentSimulationTime() << endl;
+
 // print plot from 0 to 500
 //  int time = 0;
 //  Vec2d s;

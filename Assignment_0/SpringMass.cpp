@@ -29,8 +29,7 @@ SpringMass::~SpringMass() {
 // TODO SpringMass simulation step
 int SpringMass::step() {
 	move_spring();
-	++t;
-	return t;
+	return ++t;
 }
 
 // TODO SpringMass configuration getter
